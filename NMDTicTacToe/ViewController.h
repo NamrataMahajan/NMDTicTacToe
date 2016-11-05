@@ -9,7 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int numberOfTurns,currentPlayer;
+    BOOL isGameFinished;
+    
+    NSArray *winningCombinations;
+    NSMutableArray *currentState;
+    
 
+}
+
+- (IBAction)actionButton:(id)sender;
 
 @end
 
